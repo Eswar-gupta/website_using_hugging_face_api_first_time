@@ -7,7 +7,7 @@ sys.path.append(str(ROOT_dir))
 print(os.getcwd())
 from src.hugging_face_text_summerizer.logging import logging
 
-
+from src.hugging_face_text_summerizer.utils.common import read_yaml_file
 
 
 API_URL = "https://api-inference.huggingface.co/models/google/pegasus-xsum"
